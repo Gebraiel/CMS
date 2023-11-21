@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1a11e246e6.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        body{
+            font-family:  Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        .card{
+            width:500px;
+            height:200px;
+        }
+        .card .container{
+            width:90%;
+            height:100%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .logo{
+            width:100px;
+            height:100px;
+            border-radius: 50%;
+            margin-right:50px;
+            background: red;
+        }
+        .logo img{
+            width: 100%;
+            border-radius: 50%;
+        }
+        .content{
+            height: 85%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        .content ul{
+            display: flex;
+            flex-direction: column;
+        }
+        .content ul a{
+            margin-bottom:7px;
+            
+        }
+        .content ul a i{
+            margin-right:7px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <div class="logo"></div>
+            <div class="content">
+                <div class="name">
+                    <h1>Michael Fam</h1>
+                    <h5>Director</h5>
+                </div>
+                <div class="contact">
+                    <ul>
+                        <a href="tel:0 000 0000 00"><i class="fa-solid fa-phone" ></i>0 000 0000 00</a>
+                        <a href="www.example.com"><i class="fa-solid fa-globe"></i>www.example.com</a>
+                        <a href="mailto:example@gmail.com"><i class="fa-solid fa-envelope"></i>example@gmail.com</a>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
